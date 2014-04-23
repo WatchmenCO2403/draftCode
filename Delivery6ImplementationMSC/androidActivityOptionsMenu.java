@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-public class settingsTestWindow extends Activity {
+public class MainActivity extends Activity {
 	
 	
 	/** Called when the activity is first created. */
