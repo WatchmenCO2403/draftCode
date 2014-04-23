@@ -1,0 +1,57 @@
+<!--
+Author: MSConnolly
+Date: 21/04/2014
+Purpose: Basic settings menu for SmartWatch Application: Watcher
+Additional: Appearance is different from design in Technical Plans of delivery 2.
+Because Switch buttons proved to be beyond the ability of the author,
+who resorted to using a customised version of toggleButtons.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+<ToggleButton
+    android:textOn="Watcher App On"
+    android:textOff="Watcher App Off"
+    android:id="@+id/toggle0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    
+<ToggleButton
+    android:textOn="Voice Call On"
+    android:textOff="Voice Call Off"
+    android:id="@+id/toggle1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<ToggleButton
+    android:textOn="Text Messaging On"
+    android:textOff="Text Messaging Off"
+    android:id="@+id/toggle2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<ToggleButton
+    android:textOn="Voice Mail On"
+    android:textOff="Voice Mail Off"
+    android:id="@+id/toggle3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<ToggleButton
+    android:textOn="Instant Reply On"
+    android:textOff="Instant Reply Off"
+    android:id="@+id/toggle4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<ToggleButton
+    android:textOn="Find Phone On"
+    android:textOff="Find Phone Off"
+    android:id="@+id/toggle5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
